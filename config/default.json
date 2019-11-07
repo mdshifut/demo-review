@@ -1,5 +1,5 @@
 {
-  "DB": "mongodb://localhost:27017/webconsult-api",
-  "JWT_SECRET_KEY": "",
-  "SERVICE_NAME": "webconsult-api"
+  "DB": "mongodb://localhost:27017/demo-review",
+  "JWT_SECRET_KEY": "some",
+  "SERVICE_NAME": "demo-review-api"
 }

@@ -1,0 +1,31 @@
+###
+#Create a review
+
+POST http://localhost:3000/_api/reviews HTTP/1.1
+content-type: application/json
+
+{
+     "userid":"122",
+    "rating":"5",
+    "comment_title":"This is a comment title",
+    "comment":"This is an actuall comment",
+    "record_id":"56265"
+}
+
+###
+#All reviews
+
+GET http://localhost:3000/_api/reviews HTTP/1.1
+content-type: application/json
+
+###
+#Get all reviews of a single record
+
+GET http://localhost:3000/_api/reviews/record/56265 HTTP/1.1
+content-type: application/json
+
+###
+#Get average review of single record
+
+GET http://localhost:3000/_api/reviews/record/average/56265 HTTP/1.1
+content-type: application/json

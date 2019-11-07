@@ -21,6 +21,8 @@
     "ecmaVersion": 2018
   },
   "rules": {
+    "func-names": "off",
+    "no-invalid-this": "off",
     "prettier/prettier": "error",
     "no-unused-vars": "warn",
     "import/no-commonjs": "off",
